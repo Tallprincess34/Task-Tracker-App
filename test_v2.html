@@ -1,0 +1,647 @@
+<!Doctype>
+<html>
+    <head>
+        <title> Trainging - Figma </title>
+        <link rel="stylesheet" href="test_v2.css">
+        <link rel="stylesheet" href="right-layout.css">
+
+    </head>
+
+    <body>
+
+        <nav class="navigation">
+            <div class="nav-content">
+                <div class="nav-bar">
+                    <div class="search-frame">
+                        <div class="course-card">
+                            Course academy
+                        </div>
+                        <div class="search">
+                            <div class="search-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <g clip-path="url(#clip0_0_14)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.99999 1.33333C6.09638 1.33341 5.2059 1.54957 4.40282 1.96379C3.59975 2.37801 2.90738 2.97828 2.38348 3.7145C1.85957 4.45073 1.51933 5.30156 1.39112 6.19603C1.26292 7.09049 1.35049 8.00265 1.6465 8.85639C1.94252 9.71013 2.43842 10.4807 3.09281 11.1038C3.7472 11.7269 4.54112 12.1845 5.40833 12.4384C6.27553 12.6923 7.19088 12.7351 8.078 12.5633C8.96512 12.3915 9.79828 12.01 10.508 11.4507L12.9427 13.8853C13.0684 14.0068 13.2368 14.074 13.4116 14.0724C13.5864 14.0709 13.7536 14.0008 13.8772 13.8772C14.0008 13.7536 14.0709 13.5864 14.0724 13.4116C14.074 13.2368 14.0068 13.0684 13.8853 12.9427L11.4507 10.508C12.1093 9.67241 12.5194 8.66827 12.6341 7.61048C12.7487 6.5527 12.5632 5.48401 12.0988 4.52673C11.6344 3.56944 10.9099 2.76224 10.0082 2.19749C9.10646 1.63274 8.06396 1.33326 6.99999 1.33333ZM2.66665 7C2.66665 5.85073 3.1232 4.74853 3.93586 3.93587C4.74851 3.12321 5.85071 2.66667 6.99999 2.66667C8.14926 2.66667 9.25146 3.12321 10.0641 3.93587C10.8768 4.74853 11.3333 5.85073 11.3333 7C11.3333 8.14927 10.8768 9.25147 10.0641 10.0641C9.25146 10.8768 8.14926 11.3333 6.99999 11.3333C5.85071 11.3333 4.74851 10.8768 3.93586 10.0641C3.1232 9.25147 2.66665 8.14927 2.66665 7Z" fill="#A2A2A2"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_0_14">
+                                        <rect width="16" height="16" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="search-bar">
+                                Search...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-bar">
+                        <div class="address-body">
+                            <div class="home address-body-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                    <path d="M12.5 1.198L22.5 9.532V22H2.5V9.532L12.5 1.198ZM10.5 20H14.5V15H10.5V20ZM16.5 20H20.5V10.468L12.5 3.802L4.5 10.468V20H8.5V13H16.5V20Z" fill="#A2A2A2"/>
+                                </svg>
+                                Home
+                            </div>
+                            <div class="course address-body-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                    <g clip-path="url(#clip0_0_25)">
+                                    <path d="M24.4311 19.6868L20.0421 11.5702C20.4899 10.554 20.7404 9.43087 20.7404 8.24925C20.7404 3.69525 17.0485 0.00374985 12.4949 0.00374985C7.94012 0.00374985 4.24862 3.69562 4.24862 8.24925C4.24862 9.45937 4.5115 10.6076 4.9795 11.6426L0.570995 19.683C0.428846 19.9414 0.452471 20.2601 0.630221 20.496C0.808346 20.7311 1.1091 20.8418 1.39632 20.7743L5.16095 19.9106L6.44945 23.4994C6.54995 23.7784 6.80457 23.9719 7.0997 23.9936C7.11885 23.9951 7.1372 23.9959 7.1552 23.9959C7.29081 23.9958 7.42388 23.959 7.54023 23.8894C7.65658 23.8197 7.75187 23.7198 7.81595 23.6003L11.6526 16.4524C11.9323 16.4808 12.2133 16.4949 12.4944 16.4948C12.7551 16.4948 13.0123 16.4813 13.2665 16.4573L17.1864 23.6059C17.2558 23.7326 17.3603 23.8366 17.4874 23.9053C17.6144 23.974 17.7587 24.0046 17.9027 23.9933C18.1971 23.9696 18.4506 23.7765 18.5503 23.499L19.8388 19.9103L23.6034 20.7739C23.8922 20.8436 24.1899 20.7315 24.368 20.4971C24.5469 20.2631 24.5709 19.9459 24.431 19.6868H24.4311ZM7.29165 21.4065L6.3481 18.7777C6.2191 18.4204 5.84488 18.2122 5.47435 18.3004L2.68998 18.939L5.86365 13.1505C6.90878 14.5624 8.39378 15.6274 10.1162 16.1456L7.29165 21.4065ZM5.75525 8.24923C5.75525 4.53335 8.7789 1.5101 12.4951 1.5101C16.211 1.5101 19.2343 4.53335 19.2343 8.24923C19.2343 11.9651 16.211 14.9891 12.4951 14.9891C8.7785 14.9891 5.75525 11.9651 5.75525 8.24923ZM19.5253 18.3003C19.1533 18.2126 18.7805 18.4203 18.6515 18.7777L17.7016 21.4256L14.8152 16.1624C16.5834 15.6446 18.1044 14.5515 19.163 13.0983L22.3235 18.942L19.5253 18.3003Z" fill="#A2A2A2"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_0_25">
+                                    <rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                                Courses 
+                            </div>
+                            <div class="referal address-body-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                    <path d="M20.75 6.75H17.4613C17.4978 6.71906 17.5353 6.68906 17.5709 6.65625C17.8557 6.40329 18.0851 6.0943 18.245 5.74861C18.4049 5.40292 18.4917 5.02796 18.5 4.64719C18.5123 4.23063 18.4394 3.81595 18.2856 3.42861C18.1319 3.04127 17.9006 2.68944 17.606 2.39472C17.3113 2.1 16.9596 1.8686 16.5723 1.71474C16.185 1.56089 15.7703 1.48781 15.3538 1.5C14.9728 1.50821 14.5977 1.59496 14.2518 1.75482C13.906 1.91468 13.5968 2.14422 13.3438 2.42906C12.9936 2.8349 12.7089 3.29291 12.5 3.78656C12.2911 3.29291 12.0064 2.8349 11.6562 2.42906C11.4032 2.14422 11.094 1.91468 10.7482 1.75482C10.4023 1.59496 10.0272 1.50821 9.64625 1.5C9.22969 1.48781 8.81503 1.56089 8.42774 1.71474C8.04044 1.8686 7.68868 2.1 7.39405 2.39472C7.09941 2.68944 6.86812 3.04127 6.71438 3.42861C6.56064 3.81595 6.48768 4.23063 6.5 4.64719C6.50833 5.02796 6.59514 5.40292 6.755 5.74861C6.91486 6.0943 7.14434 6.40329 7.42906 6.65625C7.46469 6.68719 7.50219 6.71719 7.53875 6.75H4.25C3.85218 6.75 3.47064 6.90804 3.18934 7.18934C2.90804 7.47064 2.75 7.85218 2.75 8.25V11.25C2.75 11.6478 2.90804 12.0294 3.18934 12.3107C3.47064 12.592 3.85218 12.75 4.25 12.75V18.75C4.25 19.1478 4.40804 19.5294 4.68934 19.8107C4.97064 20.092 5.35218 20.25 5.75 20.25H19.25C19.6478 20.25 20.0294 20.092 20.3107 19.8107C20.592 19.5294 20.75 19.1478 20.75 18.75V12.75C21.1478 12.75 21.5294 12.592 21.8107 12.3107C22.092 12.0294 22.25 11.6478 22.25 11.25V8.25C22.25 7.85218 22.092 7.47064 21.8107 7.18934C21.5294 6.90804 21.1478 6.75 20.75 6.75ZM14.4688 3.42281C14.5875 3.29168 14.7321 3.18651 14.8934 3.11391C15.0547 3.04131 15.2293 3.00285 15.4062 3.00094H15.4522C15.6595 3.00223 15.8645 3.0449 16.0552 3.12644C16.2458 3.20798 16.4183 3.32675 16.5624 3.4758C16.7066 3.62484 16.8195 3.80115 16.8947 3.99441C16.9698 4.18767 17.0056 4.39398 17 4.60125C16.9981 4.77815 16.9596 4.95275 16.887 5.11409C16.8144 5.27542 16.7093 5.42 16.5781 5.53875C15.6884 6.32625 14.2119 6.60375 13.2969 6.70125C13.4094 5.70844 13.7188 4.26563 14.4688 3.42281ZM8.46031 3.45656C8.75088 3.16602 9.14441 3.00194 9.55531 3H9.60125C9.77815 3.00191 9.95275 3.04037 10.1141 3.11297C10.2754 3.18557 10.42 3.29074 10.5388 3.42188C11.3253 4.31063 11.6028 5.78438 11.7003 6.69563C10.7891 6.60188 9.31531 6.32063 8.42656 5.53406C8.29543 5.41531 8.19026 5.27073 8.11766 5.1094C8.04506 4.94807 8.0066 4.77347 8.00469 4.59656C7.99887 4.38585 8.03593 4.17614 8.11361 3.98018C8.19128 3.78421 8.30796 3.60607 8.45656 3.45656H8.46031ZM4.25 8.25H11.75V11.25H4.25V8.25ZM5.75 12.75H11.75V18.75H5.75V12.75ZM19.25 18.75H13.25V12.75H19.25V18.75ZM20.75 11.25H13.25V8.25H20.75V11.25Z" fill="#A2A2A2"/>
+                                </svg>
+                                Referral
+                            </div>
+                            <div class="help address-body-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                    <path d="M12.45 18C12.8 18 13.096 17.879 13.338 17.637C13.58 17.395 13.7007 17.0993 13.7 16.75C13.7 16.4 13.5793 16.104 13.338 15.862C13.0967 15.62 12.8007 15.4993 12.45 15.5C12.1 15.5 11.8043 15.621 11.563 15.863C11.3217 16.105 11.2007 16.4007 11.2 16.75C11.2 17.1 11.321 17.396 11.563 17.638C11.805 17.88 12.1007 18.0007 12.45 18ZM11.55 14.15H13.4C13.4 13.6 13.4627 13.1667 13.588 12.85C13.7133 12.5333 14.0673 12.1 14.65 11.55C15.0833 11.1167 15.425 10.704 15.675 10.312C15.925 9.92 16.05 9.44933 16.05 8.9C16.05 7.96667 15.7083 7.25 15.025 6.75C14.3417 6.25 13.5333 6 12.6 6C11.65 6 10.879 6.25 10.287 6.75C9.695 7.25 9.28267 7.85 9.05 8.55L10.7 9.2C10.7833 8.9 10.971 8.575 11.263 8.225C11.555 7.875 12.0007 7.7 12.6 7.7C13.1333 7.7 13.5333 7.846 13.8 8.138C14.0667 8.43 14.2 8.75067 14.2 9.1C14.2 9.43333 14.1 9.746 13.9 10.038C13.7 10.33 13.45 10.6007 13.15 10.85C12.4167 11.5 11.9667 11.9917 11.8 12.325C11.6333 12.6583 11.55 13.2667 11.55 14.15ZM12.5 22C11.1167 22 9.81667 21.7373 8.6 21.212C7.38333 20.6867 6.325 19.9743 5.425 19.075C4.525 18.175 3.81267 17.1167 3.288 15.9C2.76333 14.6833 2.50067 13.3833 2.5 12C2.5 10.6167 2.76267 9.31667 3.288 8.1C3.81333 6.88333 4.52567 5.825 5.425 4.925C6.325 4.025 7.38333 3.31267 8.6 2.788C9.81667 2.26333 11.1167 2.00067 12.5 2C13.8833 2 15.1833 2.26267 16.4 2.788C17.6167 3.31333 18.675 4.02567 19.575 4.925C20.475 5.825 21.1877 6.88333 21.713 8.1C22.2383 9.31667 22.5007 10.6167 22.5 12C22.5 13.3833 22.2373 14.6833 21.712 15.9C21.1867 17.1167 20.4743 18.175 19.575 19.075C18.675 19.975 17.6167 20.6877 16.4 21.213C15.1833 21.7383 13.8833 22.0007 12.5 22ZM12.5 20C14.7333 20 16.625 19.225 18.175 17.675C19.725 16.125 20.5 14.2333 20.5 12C20.5 9.76667 19.725 7.875 18.175 6.325C16.625 4.775 14.7333 4 12.5 4C10.2667 4 8.375 4.775 6.825 6.325C5.275 7.875 4.5 9.76667 4.5 12C4.5 14.2333 5.275 16.125 6.825 17.675C8.375 19.225 10.2667 20 12.5 20Z" fill="#A2A2A2"/>
+                                </svg>
+                                Help
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-bell">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19C15.0001 19.5046 14.8096 19.9906 14.4665 20.3605C14.1234 20.7305 13.6531 20.9572 13.15 20.995L13 21H11C10.4954 21.0002 10.0094 20.8096 9.63942 20.4665C9.26944 20.1234 9.04281 19.6532 9.00497 19.15L8.99997 19H15ZM12 2C13.8149 1.99997 15.559 2.70489 16.8642 3.96607C18.1694 5.22726 18.9337 6.94609 18.996 8.76L19 9V12.764L20.822 16.408C20.9015 16.567 20.9413 16.7429 20.9379 16.9206C20.9346 17.0984 20.8882 17.2727 20.8028 17.4286C20.7174 17.5845 20.5955 17.7174 20.4475 17.8158C20.2994 17.9143 20.1298 17.9754 19.953 17.994L19.838 18H4.16197C3.98413 18.0001 3.80894 17.957 3.65139 17.8745C3.49385 17.792 3.35865 17.6725 3.25739 17.5264C3.15613 17.3802 3.09182 17.2116 3.06997 17.0351C3.04813 16.8586 3.0694 16.6795 3.13197 16.513L3.17797 16.408L4.99997 12.764V9C4.99997 7.14348 5.73747 5.36301 7.05022 4.05025C8.36298 2.7375 10.1435 2 12 2ZM12 4C10.7115 4.00007 9.47281 4.49754 8.54219 5.38866C7.61158 6.27978 7.06089 7.49575 7.00497 8.783L6.99997 9V12.764C6.99998 13.012 6.95386 13.2579 6.86397 13.489L6.78897 13.659L5.61897 16H18.382L17.212 13.658C17.101 13.4363 17.0321 13.1959 17.009 12.949L17 12.764V9C17 7.67392 16.4732 6.40215 15.5355 5.46447C14.5978 4.52678 13.3261 4 12 4Z" fill="#A2A2A2"/>
+                            </svg>
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-info-body">
+                                <div class="profile-picture">
+                                    <img src="profile-picture.jpg" alt="profile picture">
+                                </div>
+                                <div class="profile-name">
+                                    <div class="profile-name-body">
+                                        <div class="profile-naming">
+                                            Donda Vishal
+                                        </div>
+                                        <div class="profile-info-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path d="M10 10.9767L14.125 6.85167L15.3033 8.03L10 13.3333L4.69668 8.03L5.87585 6.85166L10.0008 10.9767L10 10.9767Z" fill="#A2A2A2"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="profile-info-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M10 10.9767L14.125 6.85167L15.3033 8.03L10 13.3333L4.69668 8.03L5.87585 6.85166L10.0008 10.9767L10 10.9767Z" fill="#A2A2A2"/>
+                                        </svg>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="layout-container">
+            <div class="layout-left">
+                <div class="header">
+                    <div class="header-content">
+
+                        <div class="header-content-left">
+                            <h1>
+                                Learn javascript in 30 days <br> with great resources
+                            </h1>
+        
+                            <p>
+                                lorem ipsum is simply dummy text of printing and typesetting <br> industry. Lorem Ipsum has been
+                            </p>
+        
+                            <br>
+                            
+                            <div class="button_group">    
+                                <button class="primary_button"> Overview </button>
+                                <button class="secondary_button"> Start Quiz </button>
+                            </div>
+                        </div>
+
+                        <div class="header-links">
+                            <div class="header-links-share">
+                                <div class="share-text">
+                                    Share on:
+                                </div>
+                                <div class="share-logo">
+                                    <div class="fb-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M11.6666 11.25H13.75L14.5833 7.91666H11.6666V6.24999C11.6666 5.39166 11.6666 4.58332 13.3333 4.58332H14.5833V1.78332C14.3116 1.74749 13.2858 1.66666 12.2025 1.66666C9.93998 1.66666 8.33331 3.04749 8.33331 5.58332V7.91666H5.83331V11.25H8.33331V18.3333H11.6666V11.25Z" fill="#009266"/>
+                                        </svg>
+                                    </div>
+                                    <div class="insta-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M6.50002 1.66666H13.5C16.1667 1.66666 18.3334 3.83332 18.3334 6.49999V13.5C18.3334 14.7819 17.8241 16.0112 16.9177 16.9177C16.0113 17.8241 14.7819 18.3333 13.5 18.3333H6.50002C3.83335 18.3333 1.66669 16.1667 1.66669 13.5V6.49999C1.66669 5.21811 2.17591 3.98873 3.08234 3.08231C3.98876 2.17588 5.21814 1.66666 6.50002 1.66666ZM6.33335 3.33332C5.5377 3.33332 4.77464 3.64939 4.21203 4.212C3.64942 4.77461 3.33335 5.53767 3.33335 6.33332V13.6667C3.33335 15.325 4.67502 16.6667 6.33335 16.6667H13.6667C14.4623 16.6667 15.2254 16.3506 15.788 15.788C16.3506 15.2254 16.6667 14.4623 16.6667 13.6667V6.33332C16.6667 4.67499 15.325 3.33332 13.6667 3.33332H6.33335ZM14.375 4.58332C14.6513 4.58332 14.9162 4.69307 15.1116 4.88842C15.3069 5.08377 15.4167 5.34872 15.4167 5.62499C15.4167 5.90126 15.3069 6.16621 15.1116 6.36156C14.9162 6.55691 14.6513 6.66666 14.375 6.66666C14.0988 6.66666 13.8338 6.55691 13.6384 6.36156C13.4431 6.16621 13.3334 5.90126 13.3334 5.62499C13.3334 5.34872 13.4431 5.08377 13.6384 4.88842C13.8338 4.69307 14.0988 4.58332 14.375 4.58332ZM10 5.83332C11.1051 5.83332 12.1649 6.27231 12.9463 7.05371C13.7277 7.83511 14.1667 8.89492 14.1667 9.99999C14.1667 11.1051 13.7277 12.1649 12.9463 12.9463C12.1649 13.7277 11.1051 14.1667 10 14.1667C8.89495 14.1667 7.83514 13.7277 7.05374 12.9463C6.27234 12.1649 5.83335 11.1051 5.83335 9.99999C5.83335 8.89492 6.27234 7.83511 7.05374 7.05371C7.83514 6.27231 8.89495 5.83332 10 5.83332ZM10 7.49999C9.33698 7.49999 8.70109 7.76338 8.23225 8.23222C7.76341 8.70106 7.50002 9.33695 7.50002 9.99999C7.50002 10.663 7.76341 11.2989 8.23225 11.7678C8.70109 12.2366 9.33698 12.5 10 12.5C10.6631 12.5 11.2989 12.2366 11.7678 11.7678C12.2366 11.2989 12.5 10.663 12.5 9.99999C12.5 9.33695 12.2366 8.70106 11.7678 8.23222C11.2989 7.76338 10.6631 7.49999 10 7.49999Z" fill="#009266"/>
+                                        </svg>
+                                    </div>
+                                    <div class="x-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M18.7167 5.00001C18.075 5.29168 17.3833 5.48334 16.6667 5.57501C17.4 5.13334 17.9667 4.43334 18.2333 3.59168C17.5417 4.00834 16.775 4.30001 15.9667 4.46668C15.3083 3.75001 14.3833 3.33334 13.3333 3.33334C11.375 3.33334 9.77499 4.93334 9.77499 6.90834C9.77499 7.19168 9.80833 7.46668 9.86666 7.72501C6.89999 7.57501 4.25833 6.15001 2.49999 3.99168C2.19166 4.51668 2.01666 5.13334 2.01666 5.78334C2.01666 7.02501 2.64166 8.12501 3.60833 8.75001C3.01666 8.75001 2.46666 8.58334 1.98333 8.33334V8.35834C1.98333 10.0917 3.21666 11.5417 4.84999 11.8667C4.3256 12.0102 3.77507 12.0302 3.24166 11.925C3.468 12.6354 3.91127 13.257 4.50917 13.7025C5.10707 14.1479 5.82953 14.3948 6.57499 14.4083C5.31135 15.4087 3.74499 15.9494 2.13333 15.9417C1.84999 15.9417 1.56666 15.925 1.28333 15.8917C2.86666 16.9083 4.74999 17.5 6.76666 17.5C13.3333 17.5 16.9417 12.05 16.9417 7.32501C16.9417 7.16668 16.9417 7.01668 16.9333 6.85834C17.6333 6.35834 18.2333 5.72501 18.7167 5.00001Z" fill="#009266"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                     
+                </div>
+
+                <div class = "courses">
+
+                    <!-- <nav class="Breadcrumbs ">
+                        <a>Courses</a> /
+                        <a>Javascript</a> /
+                        <span style = " color: #009266">Learn javascript in 30 days </span>
+                    </nav>   -->
+
+                    <nav class="Breadcrumbs">
+                        <a>Courses </a> 
+                        <a>Javascript </a> 
+                        <a>Learn javascript in 30 days </a>
+                    </nav>  
+
+
+                    <div class="cource-title">
+                        <h3> Javascript programming for beginners - Part 1 </h3>
+                    </div>
+
+                    <div class="data-info">
+                        <div class="data-group"> 
+                            <div class="data-label"> COURSE START DATE</div> 
+                            <div class="data-value"> 14 Aug 2018 </div> 
+                        </div>
+                        <div class="data-group"> 
+                            <div class="data-label"> DEADLINE</div> 
+                            <div class="data-value"> 20 Days </div> 
+                        </div>
+                        <div class="data-group"> 
+                            <div class="data-label"> TASK STATUS</div> 
+                            <div class="data-value" style = "color: #EA0054"> Incomplete </div>
+                        </div>
+                        <div class="data-group"> 
+                            <div class="data-label"> QUIZZES PASSED</div> 
+                            <div class="data-value"> 15 </div> 
+                        </div>
+                    </div>
+
+                </div>
+                <!-- task overview -->
+                <div class="task-overview">
+                    <h3>TASK OVERVIEW</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words...<span style="color:#009266;">LOAD MORE</span></p>
+                </div>
+
+                <!-- upcoming tasks -->
+                <div class="upcoming-tasks">
+                    <h3 class="upcoming-tasks-title">UPCOMING TASKS</h3>
+
+                    <div class="task-cards">
+                        <div class="task-cards-content">
+                            <div class="task-heading">FULL-STACK WEB DEVELOPMENT</div>
+                            <div class="task-title">Complete the introduction of programming course</div>    
+                        </div>
+                        <div class="task-card-date">
+                            30 JAN 2018
+                        </div>
+                    </div>
+
+                    <div class="task-cards box-active">
+                        <div class="task-cards-content">
+                            <div class="task-heading">FULL-STACK WEB DEVELOPMENT</div>
+                            <div class="task-title">Complete the introduction of programming course</div>
+                            <div class="box-active-body">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum has been.
+                            </div>
+                            <div class="button_group">    
+                                <button class="primary_button"> Start Quiz </button>
+                                <button class="secondary_button"> Prepare Quiz </button>
+                            </div>
+                        </div> 
+                        <div class="task-card-date">
+                            30 JAN 2018
+                        </div>                                           
+                    </div>
+
+                    <div class="task-cards">
+                        <div class="task-cards-content">
+                            <div class="task-heading">FULL-STACK WEB DEVELOPMENT</div>
+                            <div class="task-title">Complete the introduction of programming course</div>
+                        </div>
+                        <div class="task-card-date">
+                            30 JAN 2018
+                        </div>
+                    </div>
+                </div>
+
+                <!-- completed tasks -->
+                
+                <div class="completed-tasks">
+
+                    <div class="completed-tasks-title">
+                        COMPLETED TASKS
+                    </div>
+
+                    <div class="completed-tasks-body">
+                        <div class="task-cards completed-task">
+                            <div class="completed-task-holder">
+                                <div class="completed-task-content">
+                                    <div class="task-heading">FULL-STACK WEB DEVELOPMENT</div>
+                                    <div class="task-title">Complete the introduction of programming course</div>
+                                </div>
+                                <button class="completed-button"> 
+                                    <div class="completed-button-holder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M17.5 5.83333L7.50002 15.8333L2.91669 11.25L4.09169 10.075L7.50002 13.475L16.325 4.65833L17.5 5.83333Z" fill="#009266"/>
+                                        </svg> 
+                                        Completed
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="task-cards completed-task">
+                            <div class="completed-task-holder">
+                                <div class="completed-task-content">
+                                    <div class="task-heading">FULL-STACK WEB DEVELOPMENT</div>
+                                    <div class="task-title">Complete the introduction of programming course</div>
+                                </div>
+                                <button class="completed-button"> 
+                                    <div class="completed-button-holder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M17.5 5.83333L7.50002 15.8333L2.91669 11.25L4.09169 10.075L7.50002 13.475L16.325 4.65833L17.5 5.83333Z" fill="#009266"/>
+                                        </svg> 
+                                        Completed
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="task-cards completed-task">
+                            <div class="completed-task-holder">
+                                <div class="completed-task-content">
+                                    <div class="task-heading">FULL-STACK WEB DEVELOPMENT</div>
+                                    <div class="task-title">Complete the introduction of programming course</div>
+                                </div>
+                                <button class="completed-button"> 
+                                    <div class="completed-button-holder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M17.5 5.83333L7.50002 15.8333L2.91669 11.25L4.09169 10.075L7.50002 13.475L16.325 4.65833L17.5 5.83333Z" fill="#009266"/>
+                                        </svg> 
+                                        Completed
+                                    </div>
+                                </button>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+
+
+            </div>            
+            <div class="layout-right">
+                <!-- track tasks -->
+                <div class="track-tasks">
+                    <!-- track-tasks-header -->
+                    <div class="track-tasks-header">
+                        <div class="track-tasks-header-left">
+                            <div class="track-tasks-header-left-name">
+                                2 task <span style="color:#009266"></span>completed out of 10 
+                            </div>
+                            <div class="track-tasks-header-left-bar">
+                                <div class="green-bar">
+
+                                </div>
+                            </div>
+
+                            </div>
+                        <div class="track-tasks-header-right">
+                            <div class="arrows">
+                                <svg class="left-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10.9767 10L6.85171 5.875L8.03004 4.69667L13.3334 10L8.03004 15.3033L6.85171 14.1242L10.9767 9.99917L10.9767 10Z" fill="#A2A2A2"/>
+                                </svg>
+                                <svg class = "right-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10.9767 10L6.85171 5.875L8.03004 4.69667L13.3334 10L8.03004 15.3033L6.85171 14.1242L10.9767 9.99917L10.9767 10Z" fill="#A2A2A2"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- track-tasks-header end -->
+
+                    <div class="track-tasks-calender">
+                        	<div class="track-tasks-calender-header">
+                                May 5, <span style="color: #909090"> Wednesday </span>
+                            </div>
+                            <div class="track-tasks-calender-body">
+                                
+                                <div class="day-info">
+                                    <div class="day">
+                                        <div class="primary"> S </div>
+                                        <div class="secondary"> 3 </div> 
+                                    </div>
+                                    <div class="day-eclipse">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="6" viewBox="0 0 7 6" fill="none">
+                                            <circle cx="3.5" cy="3" r="3" fill="#009266"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="day-info">
+                                    <div class="day">
+                                        <div class="primary"> M </div>
+                                        <div class="secondary"> 4 </div>
+                                    </div>
+                                    <div class="day-eclipse">
+                                        <svg class="day-eclipse-green" xmlns="http://www.w3.org/2000/svg" width="7" height="6" viewBox="0 0 7 6" fill="none">
+                                            <circle cx="3.5" cy="3" r="3" fill="#009266"/>
+                                        </svg>
+
+                                        <svg class="day-eclipse-yellow" xmlns="http://www.w3.org/2000/svg" width="7" height="6" viewBox="0 0 7 6" fill="none">
+                                            <circle cx="3.33331" cy="3" r="3" fill="#FF8F22"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="day-info" >
+                                    <div class="day day-tuesday">
+                                        <div class="primary"> T </div>
+                                        <div class="secondary"> 5 </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="day-info">
+                                    <div class="day day-wednesday">
+                                        <div class="primary"> W </div>
+                                        <div class="secondary"> 6 </div>
+                                    </div>
+                                </div>
+
+                                <div class="day-info">
+                                    <div class="day">
+                                        <div class="primary"> T </div>
+                                        <div class="secondary"> 7 </div>
+                                    </div>
+                                </div>
+
+                                <div class="day-info">
+                                    <div class="day">
+                                        <div class="primary"> F </div>
+                                        <div class="secondary"> 8 </div>
+                                    </div>
+                                </div>
+
+                                <div class="day-info">
+                                    <div class="day">
+                                        <div class="primary"> S </div>
+                                        <div class="secondary"> 9 </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </div>
+                    
+                    <!-- track-tasks-list -->
+                    <div class="track-tasks-list">
+
+                        <div class="task-list">
+                            <div class="task-list-body">
+                                <div class="task-list-header">
+                                    Write hello program
+                                </div>
+                                <div class="task-list-text">
+                                    5 Aug 2018
+                                </div>
+                            </div>
+                            <div class="task-list-status">
+                                Completed
+                            </div>
+                        </div>
+
+                        <div class="task-list">
+                            <div class="task-list-body">
+                                <div class="task-list-header">
+                                    Change colors of shapes
+                                </div>
+                                <div class="task-list-text">
+                                    5 Aug 2018
+                                </div>
+                            </div>
+                            <div class="task-list-status">
+                                Completed
+                            </div>
+                        </div>
+        
+                        <div class="task-list">
+                            <div class="task-list-body">
+                                <div class="task-list-header">
+                                    Change colors of shapes
+                                </div>
+                                <div class="task-list-text">
+                                    5 Aug 2018
+                                </div>
+                            </div>
+                            <div class="task-list-status">
+                                Completed
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- track-tasks-list end -->
+
+                </div>
+                <!-- tasks end -->
+                
+                <!-- point-diagram -->
+                <div class="point-diagram">
+
+                    <div class="point-header">
+                        <div class="header-box">
+                            <div class="header-box-left">
+                                <div class="total-points-text">
+                                    Total Points
+                                </div>
+                                <div class="total-points-bar">
+
+                                </div>
+                            </div>
+                            <div class="header-box-right">
+                                Overall Rank
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="point-body">
+                        <div class="point-body-content">
+                            <div class="point-body-left">
+                                <div class="points-scored">
+                                    1245
+                                </div>
+                                <div class="points-earned">
+                                    Points earned
+                                </div>
+                            </div>
+                        
+                            <div class="points-days-filter">
+                                Last 30 days
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="point-graph">
+                        <img src="chart-image.png" alt="chart points">
+                    </div>
+                </div>
+                <!-- point-diagram end -->
+
+                <div class="contact-info">
+                    <div class="contact-body">
+                        <div class="contact-header">
+                            Contact us
+                        </div>
+                        <div class="admissions">
+                            <div class="contact-left-body">
+                                <div class="left-body-title">
+                                    Admissions
+                                </div>
+                                <div class="left-body-content">
+                                    Lorem Ipsum is simply dummy text of the printing and.
+                                </div>
+                            </div>
+                            <div class="contact-button">
+                                Contact
+                            </div>
+                        </div>
+
+                        <div class="career-coach">
+                            <div class="contact-left-body">
+                                <div class="left-body-title">
+                                    Career Coach
+                                </div>
+                                <div class="left-body-content">
+                                    Lorem Ipsum is simply dummy text of the printing and.
+                                </div>
+                            </div>
+                            <div class="contact-button">
+                                Contact
+                            </div>
+                        </div>
+                        <div class="instructor">
+                            <div class="contact-left-body">
+                                <div class="left-body-title">
+                                    Instructor
+                                </div>
+                                <div class="left-body-content">
+                                    Lorem Ipsum is simply dummy text of the printing and.
+                                </div>
+                            </div>
+                            <div class="contact-button">
+                                Contact
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-docs">
+                    <div class="link-body">
+                        <div class="link-header">Important Documents</div>
+                        <div class="links">Interview Prepwork</div>
+                        <div class="links">Link to Guidelines</div>
+                        <div class="links">Link to Videos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-body">
+                <div class="footer-body-content">
+                    <div class="footer-company">
+                        <div class="footer-header">
+                            Company
+                        </div>
+                        <div class="footer-link-body">
+                            <div class="footer-link-item"> About us </div>
+                            <div class="footer-link-item"> Terms</div>
+                            <div class="footer-link-item"> Privacy Policy</div>
+                            <div class="footer-link-item"> Blog </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-help-center">
+                        <div class="footer-header">
+                            Help Center
+                        </div>
+                        <div class="footer-link-body">
+                            <div class="footer-link-item"> Contact us </div>
+                            <div class="footer-link-item"> Report us </div>
+                            <div class="footer-link-item"> FAQs </div>
+                            <div class="footer-link-item"> Our Library </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <div class="footer-header">
+                            CONTACT
+                        </div>
+                        <div class="footer-link-body">
+                            <div class="footer-link-item"> Admissions </div>
+                            <div class="footer-link-item"> Career Coach </div>
+                            <div class="footer-link-item"> Instructor </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-download-app">
+                        <div class="footer-header">
+                            DOWNLOAD APP
+                        </div>
+                        <div class="external-apps">
+                                <div class="link-play-store">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <g clip-path="url(#clip0_3_30)">
+                                          <path d="M20.8851 13.2655C21.6642 12.8371 21.6642 11.7175 20.8851 11.2891L6.59163 3.42973C5.84005 3.01647 4.92053 3.56022 4.92053 4.41792V20.1366C4.92053 20.9943 5.84005 21.5381 6.59163 21.1248L20.8851 13.2655Z" fill="url(#paint0_linear_3_30)"/>
+                                          <path d="M17.4195 15.0966L5.76636 3.44336H6.70613L20.8027 11.3375C20.9907 11.5254 21.7425 11.9013 20.9907 13.217L17.4195 15.0966Z" fill="#61E3A7"/>
+                                          <path d="M17.7955 9.64588L6.14233 21.2991H7.08211L21.1787 13.405C21.3667 13.217 22.1185 12.8411 21.3667 11.5254L17.7955 9.64588Z" fill="#EA0054"/>
+                                          <path d="M17.6075 15.2845L14.7882 12.4652L17.7955 9.64587L21.3666 11.5254C21.9305 12.2772 21.7801 12.9539 21.1787 13.405C20.5772 13.8561 18.5473 14.846 17.6075 15.2845Z" fill="#FFAE5F"/>
+                                        </g>
+                                        <defs>
+                                          <linearGradient id="paint0_linear_3_30" x1="12.9086" y1="-4.26273" x2="14.2243" y2="24.8702" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#3CCAF4"/>
+                                            <stop offset="1" stop-color="#0B90B8"/>
+                                          </linearGradient>
+                                          <clipPath id="clip0_3_30">
+                                            <rect width="24" height="24" fill="white"/>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                    Playstore
+                                </div>
+                                <div class="link-app-store">
+                                    <img src="app-store-image.png" alt="app store image">
+                                    Appstore
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <div class="copywright-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <path d="M12.5 2.25C10.5716 2.25 8.68657 2.82183 7.08319 3.89317C5.47982 4.96451 4.23013 6.48726 3.49218 8.26884C2.75422 10.0504 2.56114 12.0108 2.93735 13.9021C3.31355 15.7934 4.24215 17.5307 5.60571 18.8943C6.96928 20.2579 8.70656 21.1865 10.5979 21.5627C12.4892 21.9389 14.4496 21.7458 16.2312 21.0078C18.0127 20.2699 19.5355 19.0202 20.6068 17.4168C21.6782 15.8134 22.25 13.9284 22.25 12C22.2473 9.41498 21.2192 6.93661 19.3913 5.10872C17.5634 3.28084 15.085 2.25273 12.5 2.25ZM12.5 20.25C10.8683 20.25 9.27326 19.7661 7.91655 18.8596C6.55984 17.9531 5.50242 16.6646 4.878 15.1571C4.25358 13.6496 4.0902 11.9908 4.40853 10.3905C4.72685 8.79016 5.51259 7.32015 6.66637 6.16637C7.82016 5.01259 9.29017 4.22685 10.8905 3.90852C12.4909 3.59019 14.1497 3.75357 15.6571 4.37799C17.1646 5.00242 18.4531 6.05984 19.3596 7.41655C20.2661 8.77325 20.75 10.3683 20.75 12C20.7475 14.1873 19.8775 16.2843 18.3309 17.8309C16.7843 19.3775 14.6873 20.2475 12.5 20.25ZM9.5 12C9.5 12.6296 9.69812 13.2433 10.0663 13.7541C10.4344 14.2649 10.954 14.6469 11.5513 14.8461C12.1487 15.0452 12.7935 15.0513 13.3945 14.8635C13.9955 14.6758 14.5222 14.3037 14.9 13.8C15.0195 13.6409 15.1973 13.5357 15.3943 13.5077C15.5913 13.4796 15.7913 13.531 15.9505 13.6505C16.1096 13.7699 16.2148 13.9477 16.2428 14.1447C16.2708 14.3417 16.2195 14.5418 16.1 14.7009C15.5332 15.4563 14.7431 16.0142 13.8416 16.2956C12.9402 16.577 11.973 16.5676 11.0771 16.2689C10.1813 15.9701 9.40208 15.3971 8.84995 14.631C8.29781 13.8648 8.00071 12.9444 8.00071 12C8.00071 11.0556 8.29781 10.1352 8.84995 9.36904C9.40208 8.60289 10.1813 8.02986 11.0771 7.73111C11.973 7.43236 12.9402 7.42302 13.8416 7.70443C14.7431 7.98583 15.5332 8.54371 16.1 9.29906C16.1592 9.37786 16.2022 9.46753 16.2267 9.56296C16.2512 9.6584 16.2567 9.75772 16.2428 9.85527C16.2289 9.95281 16.196 10.0467 16.1458 10.1315C16.0956 10.2163 16.0293 10.2904 15.9505 10.3495C15.8717 10.4087 15.782 10.4517 15.6866 10.4762C15.5911 10.5007 15.4918 10.5062 15.3943 10.4923C15.2967 10.4784 15.2029 10.4455 15.1181 10.3953C15.0333 10.3452 14.9592 10.2788 14.9 10.2C14.5222 9.69628 13.9955 9.3242 13.3945 9.13646C12.7935 8.94872 12.1487 8.95484 11.5513 9.15395C10.954 9.35306 10.4344 9.73507 10.0663 10.2459C9.69812 10.7567 9.5 11.3704 9.5 12Z" fill="white"/>
+                        </svg>    
+                    </div>
+                    <div class="copywright-text">
+                        Copyright 2018 Course academy
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
