@@ -438,10 +438,16 @@ font-weight: 600;
 .footer{
     display: flex;
     width: 100%;
-    padding: 56px 186px;
+    padding: 64;
     flex-direction: column;
     gap: 8px;
+    row-gap: 8px;
+    column-gap: 8px;
     background: #474747;
+    max-width: 100%;
+    margin: auto;
+    /* flex-basis: 47%; */
+    /* flex-basis: calc(50% - 24px); */
 }
 
 .footer-body{
@@ -455,6 +461,14 @@ font-weight: 600;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    /* flex-basis: 37%; */
+    /* flex-basis: calc(50% - 24px);  */
+}
+
+.footer-block{
+    display: flex;
+    /* flex-basis: 47%; */
+    flex-basis: calc(50% - 32px); 
 }
 
 .footer-company, .footer-help-center, .footer-contact, .footer-download-app{
